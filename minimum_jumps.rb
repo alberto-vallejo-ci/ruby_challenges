@@ -1,5 +1,5 @@
 # Recursive Challenge
-# Find the minimum jumps between two provided users from a collction of users and friends.
+# Find the minimum jumps between two provided users from a collection of users with friends.
 
 # Current Status: Done.
 
