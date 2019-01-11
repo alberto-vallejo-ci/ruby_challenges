@@ -12,10 +12,6 @@
 #   Mark: Bob, Alice, John
 #   John: Laura
 
-# u1 = Alice
-# u1.friends = [Bod, Carl, Dan]
-# u1.name = "Alice"
-
 friends = {
   alice: %i(bob carl dan),
   bob: %i(alice ed greg),
