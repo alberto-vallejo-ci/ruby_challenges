@@ -40,7 +40,7 @@ def min_jumps(u1, u2, friends, jumps = 0, blacklist = [])
     jumps_list[friend] = min_jumps(friend, u2, friends, jumps, blacklist)
   end
 
-  result = jumps_list.any? ? jumps_list.values.compact.min : nil
+  result = jumps_list.any? ? jumps_list.values.compact.min : nil # if jumps_list is empty, return nil instead of {}
 
   return result
 end
